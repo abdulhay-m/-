@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-image: url("photo/background-pizza.svg");
+    width: 100%;
+
+}
+.container{
+    max-width: 1700px;  
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header ul li{
+    margin-left: 60px;
+}
+.header ul a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.header .order{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+
+
+.section-contend{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.section-contend .title-header{
+    width: 90%;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.section-contend p{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    width: 50%;
+    margin-top: 26px;
+}
+.btn{
+    padding: 19px 45px;
+    background-color: #E85F0C;
+    display: inline-block;
+    border-radius: 26px;
+    margin-top: 80px;
+    border-color: #fff;
+
+}
+
+
+.contend-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 170px;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+
+.contend-bottom .bottom-left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom-left li{
+    margin: 25px;
+
+}
+
+
+.bottom-left li a{
+    font-family: "Montserrat", sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+}
+.bottom-left .left{
+    margin-left: -10px;
+}
+
+
+.bottom-right .top-title{
+    list-style: none;
+    
+}
+.bottom-right .top-title a{
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.bottom-right .bottom-title{
+    text-align: right;
+}
+
+.bottom-right .bottom-title a{
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    color: #E85F0F;
+    line-height: 47px;
+}
+
+
+.container h1{
+    font-family:"Montserrat", sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    margin-top: 114px;
+}
+
+
+
+.pizza{
+    margin-top: 70px;
+}
+
+.pizza .pizza-menyu{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pizza .pizza-menyu .orange{
+    color: #E85F0C;
+    opacity: 1;
+    padding-bottom: 3px;
+    border-bottom: 3px solid #E85F0C;
+}
+.pizza .pizza-menyu a{
+    text-decoration: none;
+    color: #000;
+    opacity: .5;
+    font-size: 29px ;
+    font-weight: 700 ;
+    font-family:"Montserrat", sans-serif ;
+}
+
+
+
+
+
+.pizza-selection{
+    margin-top: 160px;
+}
+
+.pizza-selection .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.pizza-selection .top .pz-pizza{
+    padding: 16px 41px;
+    width: 270px;
+    border-radius: 51px;
+    box-shadow: 15px 15px 13px lightgrey;
+    margin: 20px;
+}
+
+.pz-pizza h3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 18px;
+}
+.pz-pizza p{
+    font-family: "Nunito", sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #E85F0C;
+    text-align: center;
+    margin-top: 18px;
+
+}
+
+
+.pz-pizza p span{
+    font-size: 14px;
+    color: #000;
+    border: 1px solid #000;
+    padding: 1px 10px;
+    border-radius: 15px;
+}
+
+
+.pizza-selection .pz-pizza .btn{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+
+.margin-240{
+    margin-top: 240px;
+}
+
+.text{
+    text-align: center;
+    font-size: 23px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    line-height: 63px;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    word-spacing: 0.7px;
+    margin-top: 61px;
+}
+
+
+.anons-photo{
+    margin-top: 35px;
+    text-align: center;
+}
+
+.delivery-post{
+    margin-top: 118px;
+    padding-bottom: 88px;
+    background-image: url("photo/background-pizza.svg");
+}
+
+.delivery-post .post{
+    padding-top: 155px;
+}
+.delivery-post .text{
+   text-align: center;
+   font-family: "Roboto", sans-serif;
+   font-size: 77px;
+   font-weight: 400;
+   color: #fff;
+}
+
+
+
+.flex-anons{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.flex-anons .left, .flex-anons .center, .flex-anons .right{
+    border-radius: 56px;
+    margin: 43px;
+    border: 1px solid black;
+    background-color: #fff;
+    
+}
+
+
+.flex-anons .left{
+    padding: 34px 64px;
+}
+
+.flex-anons .center{
+    padding: 22px 73px;
+    width: 900px;
+    
+}
+
+.flex-anons .right{
+    padding: 37px 64px;
+}
+
+
+
+.flex-anons .capital-title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    margin-top: 32px;
+    margin-bottom: 29px;
+}
+
+.flex-anons p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+}
+
+
+
+.text-two{
+    margin-top:150px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .footer-last{
+    height: 460px;
+    width: 40%;
+    background-color: #E85F0F;
+    padding: 52px 120px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+
+}
+
+
+.footer .footer-last p{
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.footer .footer-last .top{
+    padding-top: 42px;
+}
+
+.footer .footer-last .number{
+    padding-top: 21px;
+}
+
+
+.footer .footer-last .international{
+    padding-top: 53px;
+}
+
+
+.footer .footer-last .icon{
+    padding-top: 44px;
+}
+.footer .footer-last .icon a{
+    text-decoration: none;
+}
+
+.footer .footer-last .icon img{
+    margin-left: 68px;
+}
+
